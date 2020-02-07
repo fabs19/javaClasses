@@ -56,21 +56,38 @@ public class StringManipulationDemo2 {
         System.out.println(s1.equalsIgnoreCase(s2));
         System.out.println(s2.equalsIgnoreCase(s1));
         
-    
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    }
+        System.out.println("****************");
+		/*
+		 * This method tests if a string starts with the 
+		 * specified prefix beginning 
+		 */
+		String str2="It is very hot in the class";
+		System.out.println("Is this string starts with="+str2.startsWith("It"));
+		//System.out.println("Is this string starts with="+str2.startsWith("is", 3));
+
+		System.out.println("****************");
+		
+		/*
+		 * This method tests if this string ends with 
+		 * the specified suffix.
+		 */
+		System.out.println("Is this string ends with="+str2.endsWith("class"));
+
+	}
+
 }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+   

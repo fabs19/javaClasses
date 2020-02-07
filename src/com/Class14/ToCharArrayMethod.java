@@ -3,9 +3,20 @@ package com.Class14;
 public class ToCharArrayMethod {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*.toCharArray
+		 * This method converts this string to a new character array.
+		 */
 		
-
+		 String str="Syntax Technologies";
+	
+		 char[] array = str.toCharArray();
+		
+		 for(char i:array) {
+			 System.out.println(i);
+		 }
+		
+	
+		
 	}
 
 }

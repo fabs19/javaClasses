@@ -10,7 +10,7 @@ public class Iq {
 				int a = 10;
 				int b = 20;
 				
-				a = a + b; //30
+				a = a + b; //10 + 20= 30 performing arithmetic 
 				
 				b = a - b; //30 - 20 = 10
 				
@@ -28,12 +28,17 @@ public class Iq {
 				//a = a + b;
 				//b = a.substring(0, a.length() - b.length());
 				
-				str1 = str1 + str2; 
+				str1 = str1 + str2; //HelloBye
+				
 			
-				str2=str1.substring(0,str1.length()-str2.length());
-				System.out.println(str2);
-				System.out.println(str1);
-
+//				str2 = str1.substring(0 , str1.length()-str2.length()); //Hello
+				
+				//	str1 = str1.substring(str2.length()); //World
+					
+				//	System.out.println("The value of str1 = "+str1+", value of str2 = "+str2);
+					
+					//
+						
 				
 			/*
 			 * 2.Write a java program to find the second largest number in the array?
@@ -41,17 +46,17 @@ public class Iq {
 			 */
 				
 				int arr[] = { 14, 46, 47, 86, 92, 52, 48, 36, 66, 85 };
-				int largest = arr[0];
-				int secondLargest = arr[0];
+				int largest = arr[0];//assume largest is 1st element of array
+				int secondLargest = arr[0];//assume 
 				
 				System.out.println("The given array is:" );
-				for (int i = 0; i < arr.length; i++) {
+				for (int i = 0; i < arr.length; i++) {  //compare each element inside array to each other
 					System.out.print(arr[i]+" ");
 				}
 				for (int i = 0; i < arr.length; i++) {
 		 
 					if (arr[i] > largest) {
-						secondLargest = largest;
+						secondLargest = largest; //this order matters
 						largest = arr[i];
 		 
 					} else if (arr[i] > secondLargest) {
@@ -68,7 +73,7 @@ public class Iq {
 				 * Reverse a string word by word?
 				 */
 				
-				String reverse="";
+				String reverse=""; //first string is empty
 				String original="Hello";
 				int length = original.length();
 			     
@@ -87,9 +92,16 @@ public class Iq {
 				 *  The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29.
 				 */
 				
-			      int num=23;
 			      
 			      
+			      
+			      
+			      
+			      
+			      
+			      
+			      
+			//   
 			      
 			      
 			      
